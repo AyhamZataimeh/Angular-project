@@ -1,0 +1,13 @@
+<div ngClass="div">
+    <div ngClass="confrim">
+        <h1>you have orderd {{order}}</h1>
+        <h1> {{order}} quntity {{quntity}}</h1>
+        <h1 *ngIf="order=='burger'">burger total cost {{burger}}</h1>
+        <h1 *ngIf="order=='pizza'">pizza total cost {{pizza}}</h1>
+    
+    
+        <button id='order' class="btn btn-danger"
+         (click)="onConfrim()"
+        >confrim order</button>
+    </div>
+</div>

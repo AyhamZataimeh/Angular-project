@@ -1,0 +1,95 @@
+.myClass {
+    background-image: url("food.jpeg");
+    background-size: contain;
+    position: absolute;
+    top: 11%;
+    width: 100%;
+    height: 89%;
+
+
+}
+.myForm {
+    border: 1px solid  transparent;
+    /* background-color: rgb(235, 55, 52,0.9); */
+    color: white;
+    margin: auto;
+    width: 30%;
+    height: 400px;
+    padding: 20px 0 20px 80px;
+    position: relative;
+    text-transform: capitalize;
+    outline: none;
+
+    
+}
+.myForm .orders {
+    margin-top: 90px;
+    
+}
+.myForm::after {
+    content: "";
+    color: white;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    background-color: white;
+    top: 20%;
+    left: 0%;
+}
+
+.myForm h2 {
+    /* border-bottom: 1px solid white; */
+    padding-bottom: 20px;
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+    animation: myH 0.7s infinite   alternate ;
+    
+    
+}
+
+@keyframes  myH {
+    from {
+        margin-top: 0px;
+
+    }
+    to {
+        margin-top: 20px;
+        
+    }
+    
+}
+
+.myForm button {
+    position: absolute;
+    left: 40%;
+    bottom: 10%;
+    outline: none;
+    border-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+button:hover {
+    transform: scale(1.3);
+    transition:transform 1s ;
+}
+
+.welcome {
+    color: white;
+    text-align: center;
+    cursor: grab;
+    font-weight: bold;
+
+
+
+}
+
+.welcome:hover {
+    transform: scale(1.3);
+    transition: transform 1s ;
+
+
+
+}

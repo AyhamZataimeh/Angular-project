@@ -1,0 +1,47 @@
+   <div ngClass='myClass'>
+    <h1 ngClass='welcome' >welcome</h1>
+
+  <div ngClass='myForm' class="bg bg-primary">
+      <h2>order here</h2>
+    <div class="row">
+        <div class="col-sm-9">
+            
+
+            <div ngClass='orders'>
+                <h3>select you'r order</h3>
+                <select name="" id="" 
+                class="form-control col-6"
+                *ngFor="let option of options" #myOrder  >
+              
+                    <option [value]="option.burger" >{{option.burger}}</option>
+                    <option [value]="option.pizza">{{option.pizza}}</option>
+    
+                </select>
+                <!-- <h3><span *ngIf="order" >you have orderd:  </span>{{order}}  </h3> -->
+
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-9">
+        <div class="price" ngClass='price'
+  >
+            <h3>quntity</h3>
+            <select name="" id="" class="form-control col-6"  
+            #quntity>
+                <option value="1">1</option>
+                <option value="2">2</option>
+    
+            </select>
+        </div>
+        </div>
+    </div>
+    <button ngClass='order' class="btn btn-success" (click)='onOrder()'>Order</button>
+
+</div>
+
+
+
+  
+   </div>
