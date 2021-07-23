@@ -1,5 +1,10 @@
 # MyProject
 
+My first angular project it’s a simple project but I made it to enhance my skills in some topics like routing, directives, and angular events binding and local reference I have used services to share data trough the pages.
+
+The order page only admins can enter it only if the domain name is @admin finally I have used the page404 if the user enter wrong URL.
+I hope you all like it.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.
 
 ## Development server
